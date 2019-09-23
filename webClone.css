@@ -2,11 +2,13 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, sans-serif;
 }
+
 .top-nav {
     position: relative;
 }
+
 .back {
     position: absolute;
     top: 50%;
@@ -14,25 +16,28 @@ body {
 }
 
 .home {
-    color:grey;
-    position:  absolute;
+    color: grey;
+    position: absolute;
     font-size: 16px;
     text-transform: uppercase;
     top: 50%;
     left: 50%;
     transform: translate(-50%)
 }
+
 .links {
     position: absolute;
     top: 50%;
     left: 90%;
     transform: translate(-50%, -30%)
 }
+
 #fb {
     position: absolute;
     top: 30%;
     left: 0%;
 }
+
 #twitter {
     position: absolute;
     top: 30%;
@@ -48,6 +53,7 @@ body {
     font-size: 42px;
     font-weight: 100;
 }
+
 .tag {
     text-align: center;
     margin: 0 auto;
@@ -56,17 +62,20 @@ body {
     font-weight: 100;
     font-size: 16px;
 }
+
 .search-bar {
     margin: 0 auto;
     text-align: center;
     padding: 10px;
 }
+
 .search-bar input {
     height: 30px;
     width: 500px;
     border: 1px black;
     box-shadow: 1px 1px 2px lightgrey, 0 0 3px black, 0 0 3px black;
 }
+
 .proud {
     width: 180px;
     margin: 0 auto;
@@ -75,25 +84,33 @@ body {
     color: lightgrey;
     font-weight: 100;
 }
+
 .sponsor {
     text-align: center;
     margin: 0 auto;
-    width: 280px;
-    font-weight: 100;
+    width: 340px;
+    font-weight: 150;
     font-size: 16px;
 }
+
+mark {
+    background-color: lightskyblue;
+}
+
 .ad {
     width: 180px;
     margin: 0 auto;
     text-align: center;
     font-weight: 100;
-    font-size:12px;
+    font-size: 12px;
 }
+
 .languages {
     position: relative;
     height: 200px;
     padding: 0px;
 }
+
 .bash {
     background-color: grey;
     position: absolute;
@@ -104,11 +121,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.bash:not(:hover) + .show-on-hover {
-    display:none;
+
+.bash:not(:hover)+.show-on-hover {
+    display: none;
 }
+
 .show-on-hover {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 30%;
     left: 23%;
@@ -116,8 +135,9 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.enzyme { 
-    background-color:purple;
+
+.enzyme {
+    background-color: purple;
     position: absolute;
     top: 10%;
     left: 35%;
@@ -126,11 +146,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.enzyme:not(:hover) + .show-on-hover1 {
-    display:none;
+
+.enzyme:not(:hover)+.show-on-hover1 {
+    display: none;
 }
+
 .show-on-hover1 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 30%;
     left: 38%;
@@ -138,7 +160,8 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.es6 { 
+
+.es6 {
     background-color: rgb(0, 134, 151);
     position: absolute;
     top: 10%;
@@ -148,11 +171,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.es6:not(:hover) + .show-on-hover2 {
-    display:none;
+
+.es6:not(:hover)+.show-on-hover2 {
+    display: none;
 }
+
 .show-on-hover2 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 30%;
     left: 53%;
@@ -160,8 +185,9 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.go { 
-    background-color:purple;
+
+.go {
+    background-color: purple;
     position: absolute;
     top: 10%;
     left: 65%;
@@ -170,11 +196,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.go:not(:hover) + .show-on-hover3 {
-    display:none;
+
+.go:not(:hover)+.show-on-hover3 {
+    display: none;
 }
+
 .show-on-hover3 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 30%;
     left: 68%;
@@ -182,8 +210,9 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.react { 
-    background-color:purple;
+
+.react {
+    background-color: purple;
     position: absolute;
     top: 50%;
     left: 20%;
@@ -192,11 +221,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.react:not(:hover) + .show-on-hover4 {
-    display:none;
+
+.react:not(:hover)+.show-on-hover4 {
+    display: none;
 }
+
 .show-on-hover4 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 69%;
     left: 23%;
@@ -204,7 +235,8 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.sass { 
+
+.sass {
     background-color: rgb(0, 134, 151);
     position: absolute;
     top: 50%;
@@ -214,11 +246,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.sass:not(:hover) + .show-on-hover5 {
-    display:none;
+
+.sass:not(:hover)+.show-on-hover5 {
+    display: none;
 }
+
 .show-on-hover5 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 69%;
     left: 38%;
@@ -226,8 +260,9 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.vim { 
-    background-color:purple;
+
+.vim {
+    background-color: purple;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -236,11 +271,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.vim:not(:hover) + .show-on-hover6 {
-    display:none;
+
+.vim:not(:hover)+.show-on-hover6 {
+    display: none;
 }
+
 .show-on-hover6 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 69%;
     left: 53%;
@@ -248,8 +285,9 @@ body {
     border-radius: 5px;
     text-align: center;
 }
-.xpath { 
-    background-color:grey;
+
+.xpath {
+    background-color: grey;
     position: absolute;
     top: 50%;
     left: 65%;
@@ -258,11 +296,13 @@ body {
     line-height: 60px;
     border-radius: 5px;
 }
-.xpath:not(:hover) + .show-on-hover7 {
-    display:none;
+
+.xpath:not(:hover)+.show-on-hover7 {
+    display: none;
 }
+
 .show-on-hover7 {
-    background-color:lightgrey;
+    background-color: lightgrey;
     position: absolute;
     top: 69%;
     left: 68%;
@@ -270,18 +310,23 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 .recent-updates {
     position: relative;
     text-align: left;
     height: 500px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .updates {
+    color: lightblue;
     font-size: 20px;
+    width: 755px;
     position: absolute;
     top: 0%;
     left: 20%;
 }
+
 #regexp {
     position: absolute;
     top: 10%;
@@ -289,9 +334,11 @@ body {
     height: 25px;
     width: 65px;
 }
-#regexp:not(:hover) + .show-on-hover8 {
-    display:none;
+
+#regexp:not(:hover)+.show-on-hover8 {
+    display: none;
 }
+
 .show-on-hover8 {
     color: grey;
     position: absolute;
@@ -301,6 +348,7 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #bash {
     position: absolute;
     top: 10%;
@@ -308,9 +356,11 @@ body {
     height: 25px;
     width: 65px;
 }
-#bash:not(:hover) + .show-on-hover9 {
-    display:none;
+
+#bash:not(:hover)+.show-on-hover9 {
+    display: none;
 }
+
 .show-on-hover9 {
     color: grey;
     position: absolute;
@@ -320,16 +370,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #jsdoc {
     position: absolute;
     top: 20%;
     left: 20%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#jsdoc:not(:hover) + .show-on-hover10 {
-    display:none;
+
+#jsdoc:not(:hover)+.show-on-hover10 {
+    display: none;
 }
+
 .show-on-hover10 {
     color: grey;
     position: absolute;
@@ -339,16 +392,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #scp {
     position: absolute;
     top: 20%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#scp:not(:hover) + .show-on-hover11 {
-    display:none;
+
+#scp:not(:hover)+.show-on-hover11 {
+    display: none;
 }
+
 .show-on-hover11 {
     color: grey;
     position: absolute;
@@ -358,16 +414,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #rest-api {
     position: absolute;
     top: 30%;
     left: 20%;
     height: 25px;
-    width: 105px; 
+    width: 105px;
 }
-#rest-api:not(:hover) + .show-on-hover12 {
-    display:none;
+
+#rest-api:not(:hover)+.show-on-hover12 {
+    display: none;
 }
+
 .show-on-hover12 {
     color: grey;
     position: absolute;
@@ -377,16 +436,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #mysql {
     position: absolute;
     top: 30%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#mysql:not(:hover) + .show-on-hover13 {
-    display:none;
+
+#mysql:not(:hover)+.show-on-hover13 {
+    display: none;
 }
+
 .show-on-hover13 {
     color: grey;
     position: absolute;
@@ -396,16 +458,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #bolt {
     position: absolute;
     top: 40%;
     left: 20%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#bolt:not(:hover) + .show-on-hover14 {
-    display:none;
+
+#bolt:not(:hover)+.show-on-hover14 {
+    display: none;
 }
+
 .show-on-hover14 {
     color: grey;
     position: absolute;
@@ -415,16 +480,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #kotlin {
     position: absolute;
     top: 40%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#kotlin:not(:hover) + .show-on-hover15 {
-    display:none;
+
+#kotlin:not(:hover)+.show-on-hover15 {
+    display: none;
 }
+
 .show-on-hover15 {
     color: grey;
     position: absolute;
@@ -434,16 +502,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #css-grid {
     position: absolute;
     top: 50%;
     left: 20%;
     height: 25px;
-    width: 105px; 
+    width: 105px;
 }
-#css-grid:not(:hover) + .show-on-hover16 {
-    display:none;
+
+#css-grid:not(:hover)+.show-on-hover16 {
+    display: none;
 }
+
 .show-on-hover16 {
     color: grey;
     position: absolute;
@@ -453,16 +524,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #csharp7 {
     position: absolute;
     top: 50%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#csharp7:not(:hover) + .show-on-hover17 {
-    display:none;
+
+#csharp7:not(:hover)+.show-on-hover17 {
+    display: none;
 }
+
 .show-on-hover17 {
     color: grey;
     position: absolute;
@@ -472,16 +546,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #bulma {
     position: absolute;
     top: 60%;
     left: 20%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#bulma:not(:hover) + .show-on-hover18 {
-    display:none;
+
+#bulma:not(:hover)+.show-on-hover18 {
+    display: none;
 }
+
 .show-on-hover18 {
     color: grey;
     position: absolute;
@@ -491,16 +568,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #emmet {
     position: absolute;
     top: 60%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#emmet:not(:hover) + .show-on-hover19 {
-    display:none;
+
+#emmet:not(:hover)+.show-on-hover19 {
+    display: none;
 }
+
 .show-on-hover19 {
     color: grey;
     position: absolute;
@@ -510,16 +590,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #react {
     position: absolute;
     top: 70%;
     left: 20%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#react:not(:hover) + .show-on-hover20 {
-    display:none;
+
+#react:not(:hover)+.show-on-hover20 {
+    display: none;
 }
+
 .show-on-hover20 {
     color: grey;
     position: absolute;
@@ -529,16 +612,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #vim {
     position: absolute;
     top: 70%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#vim:not(:hover) + .show-on-hover21 {
-    display:none;
+
+#vim:not(:hover)+.show-on-hover21 {
+    display: none;
 }
+
 .show-on-hover21 {
     color: grey;
     position: absolute;
@@ -548,16 +634,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #semver {
     position: absolute;
     top: 80%;
     left: 20%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#semver:not(:hover) + .show-on-hover22 {
-    display:none;
+
+#semver:not(:hover)+.show-on-hover22 {
+    display: none;
 }
+
 .show-on-hover22 {
     color: grey;
     position: absolute;
@@ -567,16 +656,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #pacman {
     position: absolute;
     top: 80%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#pacman:not(:hover) + .show-on-hover23 {
-    display:none;
+
+#pacman:not(:hover)+.show-on-hover23 {
+    display: none;
 }
+
 .show-on-hover23 {
     color: grey;
     position: absolute;
@@ -586,16 +678,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #docker-compose {
     position: absolute;
     top: 90%;
     left: 20%;
     height: 25px;
-    width: 135px; 
+    width: 135px;
 }
-#docker-compose:not(:hover) + .show-on-hover24 {
-    display:none;
+
+#docker-compose:not(:hover)+.show-on-hover24 {
+    display: none;
 }
+
 .show-on-hover24 {
     color: grey;
     position: absolute;
@@ -605,16 +700,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #cidr {
     position: absolute;
     top: 90%;
     left: 50%;
     height: 25px;
-    width: 65px; 
+    width: 65px;
 }
-#cidr:not(:hover) + .show-on-hover25 {
-    display:none;
+
+#cidr:not(:hover)+.show-on-hover25 {
+    display: none;
 }
+
 .show-on-hover25 {
     color: grey;
     position: absolute;
@@ -624,28 +722,35 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 .analytics {
     position: relative;
     text-align: left;
     height: 200px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .analyticsOne {
+    color: lightblue;
     font-size: 20px;
+    width: 755px;
     position: absolute;
     top: 0%;
     left: 20%;
 }
+
 #analyticsjs {
     position: absolute;
     top: 23%;
     left: 20%;
     height: 25px;
-    width: 115px; 
+    width: 115px;
 }
-#analyticsjs:not(:hover) + .show-on-hover26 {
-    display:none;
+
+#analyticsjs:not(:hover)+.show-on-hover26 {
+    display: none;
 }
+
 .show-on-hover26 {
     color: grey;
     position: absolute;
@@ -655,16 +760,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #analyticsTwo {
     position: absolute;
     top: 23%;
     left: 50%;
     height: 25px;
-    width: 95px; 
+    width: 95px;
 }
-#analyticsTwo:not(:hover) + .show-on-hover27 {
-    display:none;
+
+#analyticsTwo:not(:hover)+.show-on-hover27 {
+    display: none;
 }
+
 .show-on-hover27 {
     color: grey;
     position: absolute;
@@ -674,16 +782,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #mix-panel {
     position: absolute;
     top: 43%;
     left: 20%;
     height: 25px;
-    width: 85px; 
+    width: 85px;
 }
-#mix-panel:not(:hover) + .show-on-hover28 {
-    display:none;
+
+#mix-panel:not(:hover)+.show-on-hover28 {
+    display: none;
 }
+
 .show-on-hover28 {
     color: grey;
     position: absolute;
@@ -693,28 +804,35 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 .ansible {
     position: relative;
     text-align: left;
     height: 200px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .ansibleOne {
+    color: lightblue;
     font-size: 20px;
+    width: 755px;
     position: absolute;
     top: 0%;
     left: 20%;
 }
+
 #ansible-examples {
     position: absolute;
     top: 23%;
     left: 20%;
     height: 25px;
-    width: 175px; 
+    width: 175px;
 }
-#ansible-examples:not(:hover) + .show-on-hover29 {
-    display:none;
+
+#ansible-examples:not(:hover)+.show-on-hover29 {
+    display: none;
 }
+
 .show-on-hover29 {
     color: grey;
     position: absolute;
@@ -724,16 +842,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #ansible-guide {
     position: absolute;
     top: 23%;
     left: 50%;
     height: 25px;
-    width: 145px; 
+    width: 145px;
 }
-#ansible-guide:not(:hover) + .show-on-hover30 {
-    display:none;
+
+#ansible-guide:not(:hover)+.show-on-hover30 {
+    display: none;
 }
+
 .show-on-hover30 {
     color: grey;
     position: absolute;
@@ -743,16 +864,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #ansible-modules {
     position: absolute;
     top: 43%;
     left: 20%;
     height: 25px;
-    width: 145px; 
+    width: 145px;
 }
-#ansible-modules:not(:hover) + .show-on-hover31 {
-    display:none;
+
+#ansible-modules:not(:hover)+.show-on-hover31 {
+    display: none;
 }
+
 .show-on-hover31 {
     color: grey;
     position: absolute;
@@ -762,16 +886,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #ansible-roles {
     position: absolute;
     top: 43%;
     left: 50%;
     height: 25px;
-    width: 125px; 
+    width: 125px;
 }
-#ansible-roles:not(:hover) + .show-on-hover32 {
-    display:none;
+
+#ansible-roles:not(:hover)+.show-on-hover32 {
+    display: none;
 }
+
 .show-on-hover32 {
     color: grey;
     position: absolute;
@@ -781,16 +908,19 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 #ansibleTwo {
     position: absolute;
     top: 63%;
     left: 20%;
     height: 25px;
-    width: 85px; 
+    width: 85px;
 }
-#ansibleTwo:not(:hover) + .show-on-hover33 {
-    display:none;
+
+#ansibleTwo:not(:hover)+.show-on-hover33 {
+    display: none;
 }
+
 .show-on-hover33 {
     color: grey;
     position: absolute;
